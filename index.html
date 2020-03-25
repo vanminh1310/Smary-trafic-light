@@ -3,9 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Login Smart Trafic Lights</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    <div class="boxlogin"></div>
+    <form action="index.html" class="login-form" name="form" id="from-login">
+        <h1> <font color="Red"> Đăng nhập</font></h1>
+        <div class="txtb">
+            <input type="text" name="userid" id="username">
+            <span data-placeholder=""></span>
+        </div>
+
+        <div class="txtb">
+            <input type="password" name="pswrd" id="password">
+            <span data-placeholder=""></span>
+        </div>
+
+        <div class="bt12">
+         <input class="buttonlogin" type="button" onclick="check(this.form)" value="Login" id="button" class="mybutton" />
+        </div>
+
+        <div class="bottom-text">
+          Don't have account? <a href="https://www.facebook.com/JoY-108854017400465">Sign up</a>
+        </div>
+
+      </form>
+
+      <script type="text/javascript">
+      $(".txtb input").on("focus",function(){
+        $(this).addClass("focus");
+      });
+
+      $(".txtb input").on("blur",function(){
+        if($(this).val() == "")
+        $(this).removeClass("focus");
+      });
+     function check(form)/*function to check userid & password*/
+    {
+     /*the following code checkes whether the entered userid and password are matching*/
+     if(form.userid.value == "admin" && form.pswrd.value == "admin")
+      {
+        window.open('home.html','_self')/*opens the target page while Id & password matches*/
+      }
+     else
+     {
+       alert("Error Password or Usename")/*displays error message*/
+      }
+    }
+
+
+      </script>
 </body>
 </html>
