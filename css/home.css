@@ -1,39 +1,58 @@
-html,body {
-    margin: 0;
-}
-.herdear{
-    height: 50px;
-    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f6f6f6;
 
-  
-    padding: 12px;
+}
+.box{
+    width: 50vw;
+}
+.box h2{
+    width: 50vw;
+    color: #fff;
+    background-image: linear-gradient(120deg, #3498db,#8e44ad);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box ul{
+    position: relative;
+    background: #fff;
+    text-decoration: none;
+
+}
+.box ul li{
+    list-style: none;
+    padding: 20px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
     text-decoration: none;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.box ul li :hover{
   
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
+
+    background-image: linear-gradient(120deg,#3498db,#8e44ad);
+    
+    color: #fff;
+
+}
+li a{
     display: block;
-    color: white;
+   
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-style: oblique;
+    font-family: monospace;
+    font-size: 1.5em;
   }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .active {
-    background-color: #4CAF50;
-  }
+.icontraffic{
+    font-size: 1.5em;
+    color: cadetblue;
+    
+    
+}
