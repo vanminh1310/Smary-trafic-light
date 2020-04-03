@@ -1,5 +1,6 @@
 html,body {
     margin: 0;
+    align-items: center;
 }
 .herdear{
     height: 50px;
@@ -38,3 +39,97 @@ ul {
   .iconabout{
     font-size: 1.5rem;
   }
+  .dialog{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity linear 0.2s;
+  }
+  .dialog:target{
+    visibility: visible;
+    opacity: 1;
+  }
+  .box{
+    width: 400px;
+    
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    margin-top: 50px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  
+  
+ .dialog-body{
+  max-width: 400px;
+  position: relative;
+  display: flex;
+  margin: auto;
+ }
+ .close{
+   position: absolute;
+ 
+  right: 30px;
+  
+  height:10px ;
+  width: 20px;
+  text-decoration: none;
+  color: #000;
+ 
+
+ }
+ .fab{
+   color: blue;
+ 
+ 
+ }
+ .fab:hover{
+   color: cornsilk;
+ }
+ .overlay-close{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+ }
