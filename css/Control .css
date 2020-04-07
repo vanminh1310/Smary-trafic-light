@@ -71,6 +71,7 @@ ul {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    
   }
   .box h1{
     font-size: 40px;
@@ -133,3 +134,127 @@ ul {
    height: 100%;
    width: 100%;
  }
+.bao_ngoai{
+  
+  width: 80vw;
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 5%;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.camera{
+  height: 30vh;
+  width: 35vw;
+  border-radius: 5%;
+  display: flex;
+  margin-left: 10vw;
+  border-style: solid;
+}
+.cam{
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-top: 9px;
+  color: red;
+}
+.thongtin{
+  display: flex;
+  height: 30vh;
+  width: 25vw;
+  margin-left: 50px;
+  border-radius: 5%;
+  border-style: solid;
+}
+.baotrong{
+  display: flex;
+  margin-top: 10px;
+}
+.lights{
+  font-size: 1.5em;
+  margin-left: 10px;
+  margin-top: 9px;
+  color: red;
+}
+.input{
+ 
+  display: flex;
+  margin-top: 80px;
+  margin-left: 250px;
+
+}
+.test1{
+  padding: 10px;
+  margin-right: 80px;
+}
+.test2{
+  margin-right: 80px;
+}
+.test3{
+  margin-right: 80px;
+}
+.button{
+  display: flex;
+ margin-left: 335px;
+
+  margin-top: 30px;
+
+}
+.bt1{
+  padding: 20px;
+  margin-right: 200px;
+  border-radius: 50%;
+  background-color: red;
+}
+.bt2{
+  padding: 20px;
+  border-radius: 50%;
+  background: yellow;
+}
+.bt3{
+  margin-left: 210px;
+  padding: 20px;
+  border-radius: 50%;
+  background: green;
+}
+.bt1:hover{
+ background: honeydew;
+}
+.bt2:hover{
+background:  honeydew;
+}
+.bt3:hover{
+background:  honeydew;
+}
+h1{
+color: black;
+}
+.btreset {
+	background-color:#44c767;
+	border-radius:23px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btreset:hover {
+	background-color:#5cbf2a;
+}
+.btreset:active {
+	position:relative;
+	top:1px;
+}
+.bt4{
+  margin-top:30px ;
+  margin-right: 50px;
+}
+        
