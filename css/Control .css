@@ -188,13 +188,13 @@ ul {
 }
 .test1{
   padding: 10px;
-  margin-right: 80px;
+  margin-right: 8vw;
 }
 .test2{
-  margin-right: 80px;
+  margin-right: 8vw;
 }
 .test3{
-  margin-right: 80px;
+  margin-right: 8vw;
 }
 .button{
   display: flex;
@@ -204,19 +204,19 @@ ul {
 
 }
 .bt1{
-  padding: 20px;
+  padding: 40px;
   margin-right: 200px;
   border-radius: 50%;
   background-color: red;
 }
 .bt2{
-  padding: 20px;
+  padding: 40px;
   border-radius: 50%;
   background: yellow;
 }
 .bt3{
   margin-left: 210px;
-  padding: 20px;
+  padding: 40px;
   border-radius: 50%;
   background: green;
 }
