@@ -1,0 +1,111 @@
+Traffic Light Project: Using Arduino Mega
+========================================================
+
+---------------
+Direction 1: North
+---------------
+
+
+- LED_Green 	Digital_14 
+- LED_Yellow	Digital_15
+- LED_Red	Digital_16
+
+- LED_Green	Digital_17 ( Turn Left )
+- LED_Red	Digital_18 ( Turn Left )
+
+- 7 Segment 
+	Pin_A	Digital_12
+	Pin_B	Digital_1
+	Pin_C	Digital_2
+	Pin_D	Digital_3
+	Pin_E	Digital_4
+	Pin_F	Digital_5
+	Pin_G	Digital_6
+
+	Pin_D1	Digital_8
+	Pin_D2	Digital_9
+========================================================
+
+---------------
+Direction 2: South
+---------------
+
+
+- LED_Green 	Digital_14 
+- LED_Yellow	Digital_15
+- LED_Red	Digital_16
+
+- LED_Green	Digital_17 ( Turn Left )
+- LED_Red	Digital_18 ( Turn Left )
+
+- 7 Segment 
+	Pin_A	Digital_12
+	Pin_B	Digital_1
+	Pin_C	Digital_2
+	Pin_D	Digital_3
+	Pin_E	Digital_4
+	Pin_F	Digital_5
+	Pin_G	Digital_6
+
+	Pin_D1	Digital_8
+	Pin_D2	Digital_9
+========================================================
+
+---------------
+Direction 3: Westh
+---------------
+
+- LED_Green 	Digital_30
+- LED_Yellow	Digital_31
+- LED_Red	Digital_32
+
+- LED_Green	Digital_33 ( Turn Left )
+- LED_Red	Digital_34 ( Turn Left )
+
+- 7 Segment 
+	Pin_A	Digital_12
+	Pin_B	Digital_1
+	Pin_C	Digital_2
+	Pin_D	Digital_3
+	Pin_E	Digital_4
+	Pin_F	Digital_5
+	Pin_G	Digital_6
+
+	Pin_D1	Digital_10
+	Pin_D2	Digital_11
+========================================================
+
+---------------
+Direction 4: Earth
+---------------
+
+- LED_Green 	Digital_30
+- LED_Yellow	Digital_31
+- LED_Red	Digital_32
+
+- LED_Green	Digital_33 ( Turn Left )
+- LED_Red	Digital_34 ( Turn Left )
+
+- 7 Segment 
+	Pin_A	Digital_12
+	Pin_B	Digital_1
+	Pin_C	Digital_2
+	Pin_D	Digital_3
+	Pin_E	Digital_4
+	Pin_F	Digital_5
+	Pin_G	Digital_6
+
+	Pin_D1	Digital_10
+	Pin_D2	Digital_11
+========================================================
+
+LDR:	Street Light Night
+
+5V ---> R_10K  ---> LDR ---> GND
+
+A0 ---> Between R_10K and LDR
+
+LED Street Light 1		Digital_40
+LED Street Light 2		Digital_41
+LED Street Light 3		Digital_42
+LED Street Light 4		Digital_43
