@@ -287,20 +287,20 @@ color: black;
    height: 5vh;
    width: 3vw;
    margin-right: 1vw;
-   background: red;
+ 
    border-radius: 50%;
  }
  .cicle2{
   height: 5vh;
   width: 3vw;
   margin-right: 1vw;
-  background: yellow;
+
   border-radius: 50%;
 }
 .cicle3{
   height: 5vh;
   width: 3vw;
-  background: green;
+
   border-radius: 50%;
 }
 
