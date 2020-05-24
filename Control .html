@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="/css/Control .css">
             <link rel="stylesheet" href="/font/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css">
             
+            
 </head>
 <body>
     <div class="herdear">
@@ -54,11 +55,11 @@
             <div class="thongtin">
                 <i class="lights fas fa-traffic-light"></i>
                 <h2>Trạng thái</h2>
-               <h2 style="color: black; font: 3em sans-serif;">00</h2>
+               <h2 id="hi" >00</h2>
                 <div class="cicle">
-                    <div class="cicle1"></div>
-                    <div class="cicle2"></div>
-                    <div class="cicle3"></div>
+                    <div id="cr1" class="cicle1"></div>
+                    <div id="cr2" class="cicle2"></div>
+                    <div id="cr3" class="cicle3"></div>
                 </div>
             
             
@@ -80,4 +81,14 @@
        </div>
     </div>
 </div>
+            <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+            <script src="/js/control.js"></script>
+           
+
+
 </body>
+</html>
